@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9445690c-85b6-4e1f-963b-320167bca9e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9445690c-85b6-4e1f-963b-320167bca9e7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,25 +19,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="3" />
+          <entry key="php" value="4" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="3" />
+          <entry key="PHP" value="4" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1401" />
+          <entry key="php" value="1874" />
           <entry key="sql" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1401" />
+          <entry key="PHP" value="1874" />
           <entry key="SQL" value="126" />
         </counts>
       </usages-collector>
@@ -48,13 +46,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/magicMethods/index.php">
+        <entry file="file://$PROJECT_DIR$/staticMethods/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1922">
-              <caret line="101" column="77" selection-start-line="101" selection-start-column="77" selection-end-line="101" selection-end-column="77" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -71,6 +66,7 @@
         <option value="$PROJECT_DIR$/ajax/users.sql" />
         <option value="$PROJECT_DIR$/ajax/index.php" />
         <option value="$PROJECT_DIR$/magicMethods/index.php" />
+        <option value="$PROJECT_DIR$/staticMethods/index.php" />
       </list>
     </option>
   </component>
@@ -81,8 +77,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-343" />
-    <option name="y" value="151" />
+    <option name="x" value="-112" />
+    <option name="y" value="97" />
     <option name="width" value="1358" />
     <option name="height" value="834" />
   </component>
@@ -102,7 +98,7 @@
             <path>
               <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="magicMethods" type="462c0819:PsiDirectoryNode" />
+              <item name="staticMethods" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,15 +136,15 @@
       <option name="presentableId" value="Default" />
       <updated>1556700296878</updated>
       <workItem from="1556700298174" duration="6276000" />
-      <workItem from="1556958602214" duration="7415000" />
+      <workItem from="1556958602214" duration="9679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13691000" />
+    <option name="totallyTimeSpent" value="15955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-343" y="151" width="1358" height="834" extended-state="0" />
+    <frame x="-112" y="97" width="1358" height="834" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2989214" />
@@ -202,11 +198,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/magicMethods/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1922">
+        <state relative-caret-position="-1908">
           <caret line="101" column="77" selection-start-line="101" selection-start-column="77" selection-end-line="101" selection-end-column="77" />
           <folding>
             <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staticMethods/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
