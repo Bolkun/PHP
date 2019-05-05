@@ -23,26 +23,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="de" value="2" />
-          <entry key="php" value="9" />
+          <entry key="php" value="10" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="9" />
+          <entry key="PHP" value="10" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="3218" />
+          <entry key="php" value="3234" />
           <entry key="sql" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3218" />
+          <entry key="PHP" value="3234" />
           <entry key="SQL" value="126" />
         </counts>
       </usages-collector>
@@ -51,10 +51,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/inheritance&amp;abstractClasses/index.php">
+        <entry file="file://$PROJECT_DIR$/traits/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+            <state relative-caret-position="357">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -76,6 +76,7 @@
         <option value="$PROJECT_DIR$/inheritance/index.php" />
         <option value="$PROJECT_DIR$/interfaces/index.php" />
         <option value="$PROJECT_DIR$/inheritance&amp;abstractClasses/index.php" />
+        <option value="$PROJECT_DIR$/traits/index.php" />
       </list>
     </option>
   </component>
@@ -86,8 +87,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="149" />
-    <option name="y" value="158" />
+    <option name="x" value="-172" />
+    <option name="y" value="91" />
     <option name="width" value="1358" />
     <option name="height" value="828" />
   </component>
@@ -107,12 +108,7 @@
             <path>
               <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="inheritance&amp;abstractClasses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="traits" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -126,6 +122,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PHP\traits" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,15 +152,15 @@
       <updated>1556700296878</updated>
       <workItem from="1556700298174" duration="6276000" />
       <workItem from="1556958602214" duration="13654000" />
-      <workItem from="1557049784378" duration="4182000" />
+      <workItem from="1557049784378" duration="5286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24112000" />
+    <option name="totallyTimeSpent" value="25216000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="149" y="158" width="1358" height="828" extended-state="0" />
+    <frame x="-172" y="91" width="1358" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30354393" />
@@ -255,8 +256,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inheritance&amp;abstractClasses/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+        <state relative-caret-position="-31">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traits/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
