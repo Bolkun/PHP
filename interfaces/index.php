@@ -1,18 +1,22 @@
 <?php
 
-// Abstract classes
-// https://www.php.net/manual/ru/language.oop5.abstract.php
+interface Draw
+{
+    public function draw();         // All methods must be created!
+}
 
-abstract class Shape
-{  // 1. by abstract class objects cannot be created!
+interface Log
+{
+    public function saveInFile();         // All methods must be created!
+}
 
+abstract class Shape implements Draw, Log
+{
     protected $x;
     protected $y;
 
-    abstract public function draw();    // 2. abstract method means that a function must be created in daughter classes!
-
     public function __toString()
-    {      // Polymorphism for daughter classes
+    {
         return print_r($this, true);
     }
 
@@ -20,7 +24,6 @@ abstract class Shape
 
 class Circle extends Shape
 {
-
     private $r;
 
     public function __construct($x, $y, $r)
@@ -35,11 +38,15 @@ class Circle extends Shape
         echo 'Draw cicle with center coordinates ' . $this->x . ' and ' . $this->y;
         echo '<br />Radius ' . $this->r;
     }
+
+    public function saveInFile()
+    {
+        //Realisation ...
+    }
 }
 
 class Rectangle extends Shape
 {
-
     private $w;
     private $h;
 
@@ -55,6 +62,11 @@ class Rectangle extends Shape
     {
         echo 'Draw rectangle with coordinates from left-uper corner ' . $this->x . ' and ' . $this->y;
         echo '<br />Width ' . $this->w . ', Height ' . $this->h;
+    }
+
+    public function saveInFile()
+    {
+        //Realisation ...
     }
 }
 
