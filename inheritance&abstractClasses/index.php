@@ -38,7 +38,7 @@ class Circle extends Shape
 }
 
 class Rectangle extends Shape
-{
+{ 
 
     private $w;
     private $h;
